@@ -1,0 +1,53 @@
+.messages {
+  flex-grow: 1;
+  width: 100%;
+  color: #fff;
+  font-size: 18px;
+  background: rgb(35, 35, 35);
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  overflow-y: auto;
+}
+
+.message {
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  width: 100%;
+}
+
+.text {
+  padding: 10px;
+  border-radius: 12px;
+  font-size: 18px;
+  color: #ffffff;
+  width: fit-content;
+}
+
+.user {
+  font-size: 16px;
+  color: rgb(176, 176, 176);
+}
+
+.user .text {
+  background: #514c4c;
+}
+
+.user .name {
+  padding-left: 10px;
+}
+
+.me {
+  align-items: flex-end;
+}
+
+.me .text {
+  background: #0d49d7;
+}
+
+.me .user {
+  padding-right: 10px;
+}
